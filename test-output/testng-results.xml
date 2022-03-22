@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Google Translator Test" duration-ms="33290" started-at="2022-03-22T09:31:43 CDT" finished-at="2022-03-22T09:32:16 CDT">
+    <groups>
+    </groups>
+    <test name="Language Swap Test" duration-ms="33290" started-at="2022-03-22T09:31:43 CDT" finished-at="2022-03-22T09:32:16 CDT">
+      <class name="com.TestTranslator.TestNG">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.TestTranslator.TestNG@2d6eabae]" name="setUp" is-config="true" duration-ms="3067" started-at="2022-03-22T09:31:43 CDT" finished-at="2022-03-22T09:31:46 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="googlePage(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.TestTranslator.TestNG@2d6eabae]" name="googlePage" duration-ms="29939" started-at="2022-03-22T09:31:46 CDT" finished-at="2022-03-22T09:32:16 CDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[German]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Spanish]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Demokratien]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Democracias]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Hi]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Hallo]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- googlePage -->
+        <test-method status="PASS" signature="quitBrowser()[pri:0, instance:com.TestTranslator.TestNG@2d6eabae]" name="quitBrowser" is-config="true" duration-ms="229" started-at="2022-03-22T09:32:16 CDT" finished-at="2022-03-22T09:32:16 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitBrowser -->
+      </class> <!-- com.TestTranslator.TestNG -->
+    </test> <!-- Language Swap Test -->
+  </suite> <!-- Google Translator Test -->
+</testng-results>

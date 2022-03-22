@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Google Translator Test">
+  <test name="Language Swap Test">
+      
+      <parameter name="sourceLanguage" value="German"/>
+      <parameter name="translationLanguage" value="Spanish"/>
+      <parameter name="sourceText" value="Demokratien"></parameter>
+      <parameter name="translatedText" value="Democracias"></parameter>
+      <parameter name="swapText" value="Hi"></parameter>
+      <parameter name="swappedText" value="Hallo"></parameter>
+
+    <classes>
+       <class name="com.TestTranslator.TestNG"/>
+    </classes>
+     
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
