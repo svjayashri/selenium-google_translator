@@ -32,6 +32,7 @@ public class TestNG {
 		
 		try {
 			// Source Language Selection
+			
 			driver.get("https://translate.google.com/");
 			System.out.println("The title of the page is " + driver.getTitle());
 
@@ -48,6 +49,7 @@ public class TestNG {
 			driver.findElement(By.xpath("(//input[contains(@aria-label,'Search languages')])[1]")).sendKeys(Keys.ENTER);
 
 			// Translation Language
+			
 			Thread.sleep(2000);
 			driver.findElement(By.xpath("(//div[@class='VfPpkd-Bz112c-RLmnJb'])[3]")).click();
 			driver.findElement(By.xpath("(//input[contains(@aria-label,'Search languages')])[2]")).click();
@@ -71,14 +73,16 @@ public class TestNG {
 			driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 
 			// Swap the language
+			
 			driver.findElement(By.xpath("(//div[@class='VfPpkd-Bz112c-RLmnJb'])[2]")).click();
 
 			driver.findElement(By.xpath("(//div[@class='VfPpkd-Bz112c-RLmnJb'])[14]")).click();
 
 			WebElement sourceValue2 = driver.findElement(By.xpath("//textarea[@aria-label='Source text']"));
 
-			sourceValue2.sendKeys(swapText);// Swap the language
-			System.out.println("The Swapped Text is  " + swapText);
+			sourceValue2.sendKeys(swapText);
+			
+			System.out.println("The Swapped Text is " + swapText);
 
 			WebElement value2 = driver.findElement(By.xpath("//span[@jsname='W297wb']"));
 
