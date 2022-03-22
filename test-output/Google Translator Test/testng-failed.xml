@@ -9,13 +9,13 @@
     <parameter name="translationLanguage" value="Spanish"/>
     <parameter name="sourceLanguage" value="German"/>
     <classes>
-      <class name="com.Test.TestNG">
+      <class name="com.TestTranslator.TestNG">
         <methods>
-          <include name="googlePage"/>
-          <include name="quitBrowser"/>
+          <include name="googlePage" invocation-numbers="0"/>
           <include name="setUp"/>
+          <include name="quitBrowser"/>
         </methods>
-      </class> <!-- com.Test.TestNG -->
+      </class> <!-- com.TestTranslator.TestNG -->
     </classes>
   </test> <!-- Language Swap Test(failed) -->
 </suite> <!-- Failed suite [Google Translator Test] -->

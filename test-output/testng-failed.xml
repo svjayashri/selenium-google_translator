@@ -1,13 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
-  <test thread-count="5" name="Default test(failed)">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Google Translator Test]">
+  <test thread-count="5" name="Language Swap Test(failed)">
+    <parameter name="translatedText" value="Democracias"/>
+    <parameter name="swapText" value="Hi"/>
+    <parameter name="swappedText" value="Hallo"/>
+    <parameter name="sourceText" value="Demokratien"/>
+    <parameter name="translationLanguage" value="Spanish"/>
+    <parameter name="sourceLanguage" value="German"/>
     <classes>
       <class name="com.TestTranslator.TestNG">
         <methods>
-          <include name="googlePage"/>
+          <include name="googlePage" invocation-numbers="0"/>
+          <include name="setUp"/>
+          <include name="quitBrowser"/>
         </methods>
       </class> <!-- com.TestTranslator.TestNG -->
     </classes>
-  </test> <!-- Default test(failed) -->
-</suite> <!-- Failed suite [Default suite] -->
+  </test> <!-- Language Swap Test(failed) -->
+</suite> <!-- Failed suite [Google Translator Test] -->

@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Google Translator Test" duration-ms="33290" started-at="2022-03-22T09:31:43 CDT" finished-at="2022-03-22T09:32:16 CDT">
+  <suite name="Google Translator Test" duration-ms="10298" started-at="2022-03-22T11:37:33 CDT" finished-at="2022-03-22T11:37:44 CDT">
     <groups>
     </groups>
-    <test name="Language Swap Test" duration-ms="33290" started-at="2022-03-22T09:31:43 CDT" finished-at="2022-03-22T09:32:16 CDT">
+    <test name="Language Swap Test" duration-ms="10298" started-at="2022-03-22T11:37:33 CDT" finished-at="2022-03-22T11:37:44 CDT">
       <class name="com.TestTranslator.TestNG">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.TestTranslator.TestNG@2d6eabae]" name="setUp" is-config="true" duration-ms="3067" started-at="2022-03-22T09:31:43 CDT" finished-at="2022-03-22T09:31:46 CDT">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.TestTranslator.TestNG@2d6eabae]" name="setUp" is-config="true" duration-ms="3448" started-at="2022-03-22T11:37:33 CDT" finished-at="2022-03-22T11:37:37 CDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="googlePage(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.TestTranslator.TestNG@2d6eabae]" name="googlePage" duration-ms="29939" started-at="2022-03-22T09:31:46 CDT" finished-at="2022-03-22T09:32:16 CDT">
+        <test-method status="PASS" signature="googlePage(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.TestTranslator.TestNG@2d6eabae]" name="googlePage" duration-ms="6555" started-at="2022-03-22T11:37:37 CDT" finished-at="2022-03-22T11:37:43 CDT">
           <params>
             <param index="0">
               <value>
@@ -47,7 +47,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- googlePage -->
-        <test-method status="PASS" signature="quitBrowser()[pri:0, instance:com.TestTranslator.TestNG@2d6eabae]" name="quitBrowser" is-config="true" duration-ms="229" started-at="2022-03-22T09:32:16 CDT" finished-at="2022-03-22T09:32:16 CDT">
+        <test-method status="PASS" signature="quitBrowser()[pri:0, instance:com.TestTranslator.TestNG@2d6eabae]" name="quitBrowser" is-config="true" duration-ms="236" started-at="2022-03-22T11:37:43 CDT" finished-at="2022-03-22T11:37:44 CDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quitBrowser -->
